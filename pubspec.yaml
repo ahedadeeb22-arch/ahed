@@ -1,0 +1,47 @@
+name: flutter_application_21
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # إضافة مكتبة GetX هنا
+  get: ^4.6.6
+
+  # Google Sign In
+  google_sign_in: ^6.1.6
+
+  # Image Picker
+  image_picker: ^1.0.7
+
+  # URL Launcher for opening Messenger
+  url_launcher: ^6.2.5
+
+  # Share Plus for sharing posts
+  share_plus: ^7.2.2
+
+  cupertino_icons: ^1.0.8
+
+  # تم تعديل إصدارات Firebase لتكون متوافقة برمجياً (Compatible)
+  firebase_core: ^3.11.0
+  firebase_analytics: ^11.4.1
+  firebase_auth: ^5.5.0      # إذا كنت ستحتاج لتسجيل الدخول
+  cloud_firestore: ^5.6.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
